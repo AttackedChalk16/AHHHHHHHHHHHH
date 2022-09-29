@@ -20,8 +20,8 @@ function onLoad() {
 // STARTER MONEY
 
 	asset.addType('prerail','Getting Started','railway');
-	asset.add('piggyback','Give Piggy Back Ride',"Gotta start somewhere.\n +$0.10",0,'prerail',false,{resource:'bank',count:0.1,inc:0},true,[],[],[],[]);
-	asset.add('push','Push Wagon',"Goes faster with a push.\n +$0.20",0,'prerail',false,{resource:'bank',count:0.2,inc:0},false,[],[],[],[{cat:'asset',name:'wagon-1',type:'rollingstock',count:1}]);
+	asset.add('piggyback','Give Piggy Back Ride',"Gotta start somewhere.\n +$100.1",0,'prerail',false,{resource:'bank',count:0.1,inc:0},true,[],[],[],[]);
+	asset.add('push','Push Wagon',"Goes faster with a push.\n +$200",0,'prerail',false,{resource:'bank',count:0.2,inc:0},false,[],[],[],[{cat:'asset',name:'wagon-1',type:'rollingstock',count:1}]);
 
 // ASSETS
 
